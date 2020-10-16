@@ -1,7 +1,7 @@
 class Solution {
 public:
     Node* reverseList(Node* head) {
-        if(head==nullptr)
+        if(head==NULL)
             return head;
         stack<Node*> s1;
         Node* temp;
