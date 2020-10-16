@@ -1,10 +1,10 @@
 class Solution {
 public:
-    ListNode* reverseList(ListNode* head) {
+    Node* reverseList(Node* head) {
         if(head==nullptr)
             return head;
-        stack<ListNode*> s1;
-        ListNode* temp;
+        stack<Node*> s1;
+        Node* temp;
         temp=head;
         while(temp!=nullptr){
             s1.push(temp);
